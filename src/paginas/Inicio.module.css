@@ -1,0 +1,50 @@
+.inicio  {
+    background-image: url("../assets/img/imgFundoDoSite.jpg");
+    background-size: cover;
+    opacity: .9;
+    height: 100vh;
+}
+
+#descricao  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+}
+
+h1, span  {
+    color: var(--second-color);
+}
+
+p  {
+    color: var(--second-text);
+}
+
+#descricao > button  {
+    color: var(--second-color);
+    background-color: var(--main-color);
+    padding: .5rem;
+    border-radius: 3px;
+}
+
+#descricao > button:hover  {
+    background-color: #07813c;
+}
+
+#nosso-trabalho  {
+    display: flex;
+}
+
+.projetos-empregos-freelancers  {
+    padding: 0 1.4rem;
+}
+
+#nosso-trabalho > .projetos-empregos-freelancers:nth-child(1)  {
+    padding-left: 0;
+}
+
+#nosso-trabalho > .projetos-empregos-freelancers:nth-child(2)  {
+    border-left: 1px solid var(--second-text);
+    border-right: 1px solid var(--second-text);
+}

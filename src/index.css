@@ -1,0 +1,92 @@
+*  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root  {
+  --main-color: #06a94d; /*cor principal - verde*/
+  --second-color: #f6fcff;  /*cor secundário - branco*/
+  --main-background: #f5f5f5; /*terceira cor de fundo - cinza claro*/
+  --main-text: #272626;   /*cor texto principal - preto*/
+  --second-text: #999090;   /*terceira cor texto - cinza*/
+}
+
+.active  {
+  background-color: var(--main-color);
+  transition: .45s ease-in-out;
+}
+
+input:focus, textarea:focus  {
+  outline: none;
+}
+
+li  {
+  list-style: none;
+}
+
+a  {
+  text-decoration: none;
+}
+
+button  {
+  border: none;
+  cursor: pointer;
+  transition: .4s;
+}
+
+form  {
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.dados-usuario  {
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    padding-left: .5rem;
+    background-color: var(--main-background);
+    border: 1.2px solid var(--second-text);
+}
+
+.dados-usuario svg  {
+  fill: var(--second-text);
+}
+
+.dados-usuario > input  {
+    padding: .5rem;
+    border: none;
+    margin-left: .5rem;
+    border-left: 1.3px solid var(--second-text) !important;
+}
+
+.btn  {
+  border: none;
+  color: var(--second-color);
+  border-radius: 3px;
+  background-color: var(--main-color);
+}
+
+.btn:hover  {
+  background-color: #077336;
+}
+
+.erro  {
+  border: .7px solid #dc3545;
+  background-color: #fa8e98;
+  border-radius: 3px;
+  padding: .25rem 0;
+  color: var(--second-color);
+}
+
+button[disabled]  {
+  background-color: var(--main-background);
+}

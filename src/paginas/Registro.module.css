@@ -1,0 +1,63 @@
+section  {
+    height: 100vh;
+}
+
+#registro > h2  {
+    font-size: 1.1em;
+    font-weight: 400;
+    margin: 3rem 0 0 7.5rem;
+}
+
+#registro > form > p a  {
+    color: var(--main-color);
+}
+
+#btn-funcao  {
+    display: flex;
+    gap: 1.5rem;
+}
+#btn-funcao > button  {
+    width: 100%;
+    color: var(--second-text);
+    padding: .5rem;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .4rem;
+}
+#btn-funcao > button span  {
+    color: var(--second-text);
+}
+
+.button-verde  {
+    background-color: var(--main-color);
+}
+
+.button-verde svg {
+    fill: var(--second-color);
+}
+.button-verde span  {
+    color: var(--second-color) !important;
+}
+
+input:not(input[type="checkbox"])  {
+    width: 100%;
+}
+
+label  {
+    display: flex;
+    gap: .4rem;
+}
+
+label > input[type="checkbox"], label > p  {
+    text-align: left;
+}
+
+input[type="checkbox"]  {
+    transform: translateY(-10px);
+}
+
+#btn-registro  {
+    padding: .5rem 0;
+}

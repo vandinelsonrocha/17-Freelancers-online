@@ -1,0 +1,40 @@
+#rodape  {
+    background-color: #282a36;
+}
+
+#rodape h3  {
+    color: var(--second-color);
+    margin-bottom: .5rem;
+    font-weight: 500;
+}
+
+#rodape li a  {
+    color: var(--second-text);
+}
+#rodape li a:hover  {
+    text-decoration: underline;
+}
+
+#rodape > ul  {
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    padding: 2.6rem 12rem;
+}
+
+.redes-container  {
+    padding: 1.1rem 7rem 1.5rem 7rem;
+    border-top: 1px solid var(--second-text);
+    display: flex;
+    justify-content: space-between;
+}
+.redes-container > p  {
+    font-size: 85%;
+}
+
+.redes-sociais  {
+    display: flex;
+    gap: 1.5rem;
+    border-left: 1px solid var(--second-text);
+    padding: .2rem 1.8rem;
+}

@@ -1,0 +1,27 @@
+.navegacao-menu  {
+    width: 100%;
+    border-bottom: 1.25px solid var(--main-text);
+}
+
+.navegacao-menu > ul  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacao-menu ul, .itens-menu  {
+    display: flex;
+}
+
+.itens-menu:first-child  {
+    margin-left: 7.55rem;
+}
+
+.itens-menu  {
+    gap: 1.5rem;
+    padding: .95rem;
+    border-left: 1.25px solid var(--main-text);
+}
+.itens-menu > li > a  {
+    color: var(--main-text);
+    padding: .7rem .85rem;
+}
