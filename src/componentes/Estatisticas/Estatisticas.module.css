@@ -1,0 +1,28 @@
+ul.lista-publicacoes  {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 3rem 0;
+    background-color: var(--second-color);
+}
+
+ul.lista-publicacoes li  {
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    text-align: center;
+}
+
+ul.lista-publicacoes li > span:nth-child(1)  {
+    font-size: 1.4em;
+    color: var(--second-text);
+}
+
+ul.lista-publicacoes li > span:nth-child(2)  {
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+ul.lista-publicacoes li > p  {
+    font-size: 90%;
+}

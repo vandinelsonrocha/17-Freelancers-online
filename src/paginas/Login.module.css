@@ -1,0 +1,34 @@
+#login-container  {
+    height: 100vh;
+}
+
+.login  {
+    width: 30%;
+}
+
+.login > h3  {
+    font-size: 95%;
+}
+
+.login > p  {
+    margin-bottom: .8rem;
+}
+
+.login > p a   {
+    color: var(--main-color);
+}
+
+.login > div {
+    margin-bottom: .3rem;
+}
+
+.login > a  {
+    text-align: left;
+    font-size: 85%;
+    margin-bottom: .4rem;
+    color: var(--second-text);
+}
+
+#btn-entrar  {
+    padding: .5rem 0;
+}

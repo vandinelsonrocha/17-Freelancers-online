@@ -15,7 +15,7 @@
     text-decoration: underline;
 }
 
-#rodape > ul  {
+#rodape > ul.lista-links  {
     display: flex;
     flex-direction: column;
     gap: .7rem;
@@ -37,4 +37,13 @@
     gap: 1.5rem;
     border-left: 1px solid var(--second-text);
     padding: .2rem 1.8rem;
+}
+
+.redes-sociais > a svg  {
+    fill: var(--second-text);
+    opacity: .6;
+    transition: .4s;
+}
+.redes-sociais > a svg:hover  {
+    opacity: 1;
 }

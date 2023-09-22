@@ -7,7 +7,7 @@
 
 :root  {
   --main-color: #06a94d; /*cor principal - verde*/
-  --second-color: #f6fcff;  /*cor secundário - branco*/
+  --second-color: #fff;  /*cor secundário - branco*/
   --main-background: #f5f5f5; /*terceira cor de fundo - cinza claro*/
   --main-text: #272626;   /*cor texto principal - preto*/
   --second-text: #999090;   /*terceira cor texto - cinza*/

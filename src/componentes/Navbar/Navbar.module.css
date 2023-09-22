@@ -25,3 +25,12 @@
     color: var(--main-text);
     padding: .7rem .85rem;
 }
+
+.itens-menu > li > a svg  {
+    transform: translateY(2.4px);
+}
+
+#sair  {
+    background-color: transparent;
+    padding: 0 1rem;
+}
