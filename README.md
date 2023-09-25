@@ -12,6 +12,7 @@ System/website developed with React + Vite using features such as:
   - Hooks
   - HTTP requests
   - API
+  - Context API
 
   Back-end - Firebase:
   - Authentication
