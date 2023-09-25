@@ -14,7 +14,7 @@ ul.lista-publicacoes li  {
 }
 
 ul.lista-publicacoes li > span:nth-child(1)  {
-    font-size: 1.4em;
+    font-size: 2em;
     color: var(--second-text);
 }
 

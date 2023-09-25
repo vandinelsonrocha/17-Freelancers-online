@@ -1,8 +1,6 @@
 import estilos from "./Rodape.module.css";
 
-import { FaFacebookF, FaTwitter, FaInstagramSquare, FaLinkedinIn, FaGithubSquare, FaYoutubeSquare, FaHammer } from "react-icons/fa";
-import { BiTrophy, BiUser } from "react-icons/bi";
-import { PiToolbox } from "react-icons/pi";
+import { FaFacebookF, FaTwitter, FaInstagramSquare, FaLinkedinIn, FaGithubSquare, FaYoutubeSquare } from "react-icons/fa";
 
 import { Link } from "react-router-dom";
 

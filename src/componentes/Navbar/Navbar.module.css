@@ -24,6 +24,8 @@
 .itens-menu > li > a  {
     color: var(--main-text);
     padding: .7rem .85rem;
+    font-size: 1.2em;
+    opacity: .9;
 }
 
 .itens-menu > li > a svg  {
@@ -32,5 +34,13 @@
 
 #sair  {
     background-color: transparent;
+    font-size: 1.2em;
     padding: 0 1rem;
+}
+
+#sair span  {
+    color: var(--main-text);
+    display: flex;
+    align-items: center;
+    opacity: .9;
 }

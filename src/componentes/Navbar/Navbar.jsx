@@ -46,7 +46,9 @@ const Navbar = () => {
                     )}
                     {usuario && (
                         <li>
-                            <button id={estilos.sair} onClick={logout}>Sair <BiArrowToRight /></button>
+                            <button id={estilos.sair} onClick={logout}>
+                                <span>Sair&nbsp;<BiArrowToRight /></span>
+                            </button>
                         </li>
                     )}
                 </div>

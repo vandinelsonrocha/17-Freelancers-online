@@ -58,9 +58,6 @@ function App() {
               <Route path="/registro" element={!usuario ? <Registro /> : <Navigate to="/" />} />
               <Route path="*" element={<NaoEncontrada />} />
             </Routes>
-            <span id="link-topo">
-              <Link to="/">1</Link>
-            </span>
           </div>
           <Rodape />
         </BrowserRouter>

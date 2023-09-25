@@ -1,0 +1,91 @@
+#ultimos-trabalhos  {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#procurar-trabalhos  {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#procurar-trabalhos > h3  {
+    font-weight: 500;
+    opacity: .9;
+}
+
+#procurar-trabalhos > p  {
+    color: var(--main-color);
+}
+#procurar-trabalhos > p svg  {
+    transform: translateY(2.7px);
+}
+
+#trabalhos  {
+    width: 100%;
+    padding: 1.7rem 0;
+    border-radius: 3px;
+    box-shadow: rgba(99, 99, 99, .2) 0 2px 8px 0;
+}
+
+#trabalhos > li  {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    transition: .4s ease-in-out;
+}
+#trabalhos > li:hover  {
+    background-color: var(--main-background);
+}
+
+#trabalhos > li > div  {
+    display: flex;
+    gap: .5rem;
+    padding: 1rem 0;
+}
+
+#trabalhos > li h4  {
+    color: var(--main-color);
+    font-weight: 400;
+    margin-bottom: .2rem;
+    font-size: 90%;
+}
+
+#trabalhos > li > div span  {
+    color: var(--second-text);
+    font-size: 80%;
+    margin-right: 1.25rem;
+}
+
+#trabalhos > li > div span svg  {
+    transform: translateY(1.6px);
+}
+
+#trabalhos > li > button  {
+    color: var(--main-color);
+    border: 1.3px solid var(--main-color);
+    border-radius: 4px;
+    padding: .4rem .5rem;
+    background-color: transparent;
+    font-size: 80%;
+    margin-top: 1rem;
+    align-self: self-start;
+}
+
+#trabalhos > li > button:hover  {
+    color: var(--second-color);
+    background-color: var(--main-color);
+}
+
+#trabalhos img  {
+    display: block;
+    height: 100%;
+    width: 3.5rem;
+    transform: translateX(-.4rem);
+}

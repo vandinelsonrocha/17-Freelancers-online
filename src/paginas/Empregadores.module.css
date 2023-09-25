@@ -1,0 +1,170 @@
+#freelancers-avaliados  {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-background);
+    padding: 0 13rem;
+    margin: 0 auto;
+}
+
+#procurar-freelancers  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+#procurar-freelancers > h3  {
+    font-weight: 500;
+    opacity: .9;
+}
+
+#procurar-freelancers > p  {
+    color: var(--main-color);
+}
+#procurar-freelancers > p svg  {
+    transform: translateY(2.7px);
+}
+
+
+#freelancers  {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.3rem;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.card-freelancer  {
+    width: 100%;
+    background-color: var(--second-color);
+    box-shadow: rgba(99, 99, 99, .2) 0 2px 8px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    padding-top: 1rem;
+    align-self: flex-start;
+    position: relative;
+    cursor: pointer;
+}
+
+.card-freelancer:hover  {
+    transform: scale(1.07);
+    transition: transform 0.6s;
+}
+
+.card-freelancer > img  {
+    display: block;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    margin-bottom: 1rem;
+}
+
+.card-freelancer > span  {
+    position: absolute;
+}
+
+.seta-ok  {
+    top: 4.9rem;
+    right: 6rem;
+    font-size: 70%;
+    padding: 1.5px 3px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+}
+
+.seta-scroll-esquerda, .seta-scroll-direita  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .4rem;
+    top: 9.5rem;
+    border-radius: 50%;
+    color: rgb(72, 71, 71);
+}
+
+.seta-scroll-esquerda  {
+    background-color: rgb(240, 235, 235);
+    left: -.9rem;
+}
+
+.seta-scroll-direita  {
+    background-color: var(--second-color);
+    right: -.9rem;
+}
+
+.card-freelancer > h4  {
+    font-weight: 500;
+    margin-bottom: .7rem;
+}
+
+.card-freelancer > h5  {
+    color: var(--second-text);
+    font-size: 85%;
+    font-weight: 500;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+.avaliacao  {
+    display: flex;
+    margin-bottom: 1.2rem;
+}
+
+.avaliacao > span:first-child  {
+    display: flex;
+    align-items: center;
+    color: var(--second-color);
+    background-color: orange;
+    padding: 0 5px;
+    border-radius: 4px;
+    transform: translateY(-2px);
+}
+.avaliacao > span  {
+    color: var(--second-text);
+}
+.avaliacao > span:not(.avaliacao > span:first-child)  {
+    font-size: 1.4em;
+}
+.avaliacao > .estrelas_amarelas  {
+    color: orange;
+}
+
+.numeros  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    background-color: var(--main-background);
+    text-align: left;
+    padding: 1.2rem;
+}
+
+.numeros > p  {
+    font-size: 80%;
+}
+
+.numeros > p:nth-child(3)  {
+    text-align: right;
+}
+.numeros > span:nth-of-type(3)  {
+    margin-left: .27rem;
+}
+
+.numeros > span  {
+    color: var(--main-text);
+}
+
+.numeros > button  {
+    grid-column: 1 / -1;
+    border-radius: 4px;
+    padding: .45rem 0;
+    margin-top: 1rem;
+    color: var(--second-color);
+    background-color: var(--main-color);
+}

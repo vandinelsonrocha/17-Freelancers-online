@@ -9,6 +9,43 @@
 
 #sobre > h3  {
     margin-bottom: 2.5rem;
+    font-weight: 500;
+}
+
+.icones-container  {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.icones-container1::after, .icones-container2::after  {
+    content: "";
+    width: 150px;
+    border: 1px solid #dcdbdb;
+    position: absolute;
+    top: 20px;
+    left: 230px;
+}
+
+.icone  {
+    font-size: 2em;
+    color: var(--second-text);
+}
+
+.icone-seta  {
+    position: absolute;
+    left: 8.8rem;
+    top: 1.2rem;
+    font-size: 60%;
+    padding: 1.5px 3px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+}
+.icone-seta2  {
+    left: 8.4rem;
+}
+.icone-seta3  {
+    left: 7.7rem;
 }
 
 #sobre > ul  {
@@ -26,4 +63,5 @@
 
 #sobre > ul > li > h4  {
     font-weight: 500;
+    opacity: .8;
 }
