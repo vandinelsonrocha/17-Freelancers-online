@@ -3,7 +3,7 @@ ul.lista-publicacoes  {
     justify-content: center;
     gap: 4rem;
     padding: 3rem 0;
-    background-color: var(--second-color);
+    background-color: var(--main-background);
 }
 
 ul.lista-publicacoes li  {

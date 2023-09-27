@@ -1,0 +1,88 @@
+{
+    "projetos": [
+        {
+            "id": 1,
+            "nome": "Gestão de Projetos com Finanças",
+            "urgencia": "Urgente",
+            "lance1": "3 lances",
+            "lance2": "Lance médio de US$ 65",
+            "data": "3 meses atrás",
+            "textoBotao1": "Contabilidade",
+            "textoBotao2": "Consultando",
+            "textoBotao3": "excel",
+            "textoBotao4": "jurídico",
+            "textoBotao5": "Redação Jurídica",
+            "precoMin": 50,
+            "precoMax": 100,
+            "precoHora": "Preço por hora"
+        },
+        {
+            "id": 2,
+            "nome": "Aplicativo de compartilhamento de fotos e mensagens",
+            "urgencia": "Urgente",
+            "lance1": "2 lances",
+            "lance2": "Lance médio de US$ 12.944",
+            "data": "3 meses atrás",
+            "textoBotao1": "Android",
+            "textoBotao2": "Android",
+            "textoBotao3": "IOS",
+            "textoBotao4": "Iphone",
+            "textoBotao5": "Desenvolvimento de aplicativos móveis",
+            "precoMin": 50.000,
+            "precoMax": 100.000,
+            "precoHora": "Preço fixo"
+        },
+        {
+            "id": 3,
+            "nome": "Arquiteta e Designer de Interiores",
+            "urgencia": "Destaque",
+            "lance1": "1 lances",
+            "lance2": "Lance médio de US$ 12",
+            "data": "há 4 meses",
+            "textoBotao1": "Projeto de arquitetura",
+            "textoBotao2": "Design gráfico",
+            "textoBotao3": "Empregos para qualquer um",
+            "textoBotao4": "Design de logotipo",
+            "textoBotao5": "Design de produto",
+            "precoMin": 5.000,
+            "precoMax": 30.000,
+            "precoHora": "Preço fixo"
+        },
+        {
+            "id": 4,
+            "nome": "Projeto de teste",
+            "lance1": "0 licitações",
+            "lance2": "0 lance médio",
+            "data": "6 dias atrás",
+            "textoBotao1": "Ajax",
+            "precoMin": 1.234,
+            "precoMax": 5.555,
+            "precoHora": "Preço fixo"
+        },
+        {
+            "id": 5,
+            "nome": "Construção de site moderno",
+            "lance1": "0 licitações",
+            "lance2": "0 lance médio",
+            "data": "10 dias atrás",
+            "textoBotao1": "AJAX",
+            "textoBotao2": "IOS",
+            "precoMin": 200,
+            "precoMax": 300,
+            "precoHora": "Preço fixo"
+        },
+        {
+            "id": 6,
+            "nome": "teste",
+            "lance1": "1 lances",
+            "lance2": "Lance médio de US$ 500",
+            "data": "2 meses atrás",
+            "textoBotao1": "INTERNET",
+            "textoBotao2": "AJAX",
+            "textoBotao3": "Android",
+            "precoMin": 10,
+            "precoMax": 100,
+            "precoHora": "Preço fixo"
+        }
+    ]
+}
