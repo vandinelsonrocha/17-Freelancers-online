@@ -1,0 +1,44 @@
+#nao-encontrada  {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 8rem;
+    background-color: var(--main-background);
+}
+
+#nao_encontrada_causa  {
+    transform: translateY(-4.5rem);
+}
+
+#nao_encontrada_causa h2  {
+    opacity: .7;
+    margin-bottom: .6rem;
+}
+#nao_encontrada_causa p  {
+    margin-bottom: 1.7rem;
+}
+#nao_encontrada_causa a  {
+    padding: .4rem .8rem;
+    font-size: 1.1em;
+}
+
+#nao-encontrada > img  {
+    position: relative;
+    animation: imgFlutuante 3s infinite ease-in-out;
+  }
+  
+  @keyframes imgFlutuante {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-9px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }

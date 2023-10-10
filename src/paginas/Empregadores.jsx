@@ -8,6 +8,7 @@ import freelancerDreamTech from "../assets/img/freelancer-dream-tech.png";
 import freelancerPoderoso from "../assets/img/freelancer-poderoso.jpg";
 
 import Navbar from "../componentes/Navbar/Navbar";
+import Rodape from "../componentes/Rodape/Rodape";
 
 const Empregadores = () => {
   return (
@@ -92,6 +93,7 @@ const Empregadores = () => {
             </li>
           </ul>
         </div>
+        <Rodape />
     </section>
   )
 }

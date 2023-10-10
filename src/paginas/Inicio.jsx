@@ -7,6 +7,7 @@ import { FaHammer } from "react-icons/fa";
 import Navbar from "../componentes/Navbar/Navbar";
 import CategoriasProjeto from "../componentes/CategoriasProjeto/CategoriasProjeto";
 import Estatisticas from "../componentes/Estatisticas/Estatisticas";
+import Rodape from "../componentes/Rodape/Rodape";
 
 import { useState, useEffect } from "react";
 
@@ -111,6 +112,7 @@ const Inicio = () => {
       </section>
       <CategoriasProjeto />
       <Estatisticas />
+      <Rodape />
     </div>
   )
 }

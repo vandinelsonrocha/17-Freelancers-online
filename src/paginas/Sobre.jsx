@@ -5,6 +5,7 @@ import { BiTrophy } from "react-icons/bi";
 import { FaHammer, FaCheck } from "react-icons/fa";
 
 import Navbar from "../componentes/Navbar/Navbar";
+import Rodape from "../componentes/Rodape/Rodape";
 
 const Sobre = () => {
   return (
@@ -45,6 +46,7 @@ const Sobre = () => {
           </li>
         </ul>
       </div>
+      <Rodape />
     </section>
   )
 }

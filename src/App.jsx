@@ -1,15 +1,8 @@
 //CSS
 import './App.css';
 
-//Ícones
-
-//Imagens
-
 //Router
-import { BrowserRouter, Routes, Route, Navigate, Link } from "react-router-dom";
-
-//Componentes
-import Rodape from './componentes/Rodape/Rodape';
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 //Páginas
 import Inicio from './paginas/Inicio';
@@ -59,7 +52,6 @@ function App() {
               <Route path="*" element={<NaoEncontrada />} />
             </Routes>
           </div>
-          <Rodape />
         </BrowserRouter>
       </AutenticacaoContextProvider>
     </div>

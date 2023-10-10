@@ -7,6 +7,7 @@ import imgPerfilFreelancer from "../assets/img/perfil-freelancer.jpg";
 import imgJogos from "../assets/img/jogos.png";
 
 import Navbar from "../componentes/Navbar/Navbar";
+import Rodape from "../componentes/Rodape/Rodape";
 
 const Trabalho = () => {
   return (
@@ -62,6 +63,7 @@ const Trabalho = () => {
             </li>
           </ul>
         </div>
+        <Rodape />
     </section>
   )
 }

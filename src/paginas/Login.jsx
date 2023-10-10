@@ -6,6 +6,7 @@ import { PiLockKey } from "react-icons/pi";
 import { Link } from "react-router-dom";
 
 import Navbar from "../componentes/Navbar/Navbar";
+import Rodape from "../componentes/Rodape/Rodape";
 
 import { useState, useEffect } from "react";
 import { useAutenticacao } from "../hooks/useAutenticacao";
@@ -39,29 +40,32 @@ const Login = () => {
     }, [erroAutenticacao])
 
   return (
-    <section id={estilos["login-container"]}>
-        <Navbar />
-        <form onSubmit={handleSubmit} className={estilos.login}>
-          <h3>Faça login para aceder ao sistema!</h3>
-          <p>Não tem uma conta? <Link to="/registro">Registra-se agora!</Link></p>
-          <div className="dados-usuario" id="ee">
-              <FaRegEnvelope />
-              <input type="email" name="email" placeholder="Endereço de e-mail" required onChange={(e) => setEmail(e.target.value)} value={email} />
-          </div>
-          <div className="dados-usuario">
-              <PiLockKey />
-              <input type="password" name="senha" placeholder="Senha" required onChange={(e) => setSenha(e.target.value)} value={senha} />
-          </div>
-          <Link to="#">Esqueceu a senha?</Link>
-          {!carregamento && <button className="btn" id={estilos["btn-entrar"]}>
-              Entrar
-          </button>}
-          {carregamento && <button id={estilos["btn-entrar"]} disabled>
-              Aguarde...
-          </button>}
-          {erro && <p className="erro">{erro}</p>}
-        </form>
-    </section>
+    <div>
+        <section id={estilos["login-container"]}>
+            <Navbar />
+            <form onSubmit={handleSubmit} className={estilos.login}>
+              <h3>Faça login para aceder ao sistema!</h3>
+              <p>Não tem uma conta? <Link to="/registro">Registra-se agora!</Link></p>
+              <div className="dados-usuario" id="ee">
+                  <FaRegEnvelope />
+                  <input type="email" name="email" placeholder="Endereço de e-mail" required onChange={(e) => setEmail(e.target.value)} value={email} />
+              </div>
+              <div className="dados-usuario">
+                  <PiLockKey />
+                  <input type="password" name="senha" placeholder="Senha" required onChange={(e) => setSenha(e.target.value)} value={senha} />
+              </div>
+              <Link to="#">Esqueceu a senha?</Link>
+              {!carregamento && <button className="btn" id={estilos["btn-entrar"]}>
+                  Entrar
+              </button>}
+              {carregamento && <button id={estilos["btn-entrar"]} disabled>
+                  Aguarde...
+              </button>}
+              {erro && <p className="erro">{erro}</p>}
+            </form>
+        </section>
+        <Rodape />
+    </div>
   )
 }
 
